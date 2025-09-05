@@ -40,11 +40,11 @@ const translations = {
         contactTitle: '联系我们',
         contactIntro: '感谢您对  的关注。如有任何问题或建议，请通过以下方式联系我们：',
         contactEmailTitle: '邮箱地址',
-        contactEmail: 'contact@example.com',
+        contactEmail: 'luyongjianzuiqiang@126.com',
         contactSupportTitle: '技术支持',
-        contactSupport: 'support@example.com',
+        contactSupport: 'luyongjianzuiqiang@126.com',
         contactBusinessTitle: '商务合作',
-        contactBusiness: 'business@example.com',
+        contactBusiness: 'luyongjianzuiqiang@126.com',
         contactResponse: '我们通常会在24小时内回复您的邮件。感谢您使用 ！',
         
         // 页脚
@@ -86,11 +86,11 @@ const translations = {
         contactTitle: 'Contact Us',
         contactIntro: 'Thank you for your interest in . If you have any questions or suggestions, please contact us through the following methods:',
         contactEmailTitle: 'Email Address',
-        contactEmail: 'contact@example.com',
+        contactEmail: 'luyongjianzuiqiang@126.com',
         contactSupportTitle: 'Technical Support',
-        contactSupport: 'support@example.com',
+        contactSupport: 'luyongjianzuiqiang@126.com',
         contactBusinessTitle: 'Business Cooperation',
-        contactBusiness: 'business@example.com',
+        contactBusiness: 'luyongjianzuiqiang@126.com',
         contactResponse: 'We usually reply to your email within 24 hours. Thank you for using !',
         
         // 页脚
