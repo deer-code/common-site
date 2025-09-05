@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">官网</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌐</text></svg>">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="logo">
+                <h1 id="appName">应用名称</h1>
+            </div>
+            <div class="nav-links">
+                <a href="#home" id="navHome">首页</a>
+                <a href="#privacy" id="navPrivacy">隐私条款</a>
+                <a href="#contact" id="navContact">联系我们</a>
+                <button id="langToggle" class="lang-btn">EN</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 首页 -->
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="hero">
+                    <h1 id="heroTitle">欢迎使用</h1>
+                    <h2 id="heroAppName" class="app-highlight">应用名称</h2>
+                    <p id="heroDescription">简洁、高效、值得信赖的解决方案</p>
+                    <div class="cta-buttons">
+                        <button class="btn-primary" onclick="showSection('contact')" id="ctaContact">联系我们</button>
+                        <button class="btn-secondary" onclick="showSection('privacy')" id="ctaPrivacy">隐私条款</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 隐私条款 -->
+        <section id="privacy" class="section">
+            <div class="container">
+                <h1 id="privacyTitle">隐私条款</h1>
+                <div class="content-card">
+                    <div class="privacy-content">
+                        <h2 id="privacyIntroTitle">隐私政策</h2>
+                        <p id="privacyIntro">
+                            <span class="app-name-placeholder">[应用名称]</span> 非常重视您的隐私。本隐私政策说明了我们如何收集、使用和保护您的个人信息。
+                        </p>
+                        
+                        <h3 id="privacyCollectionTitle">信息收集</h3>
+                        <p id="privacyCollection">
+                            我们可能收集您在使用 <span class="app-name-placeholder">[应用名称]</span> 时提供的信息，包括但不限于：
+                        </p>
+                        <ul id="privacyCollectionList">
+                            <li id="privacyItem1">基本账户信息（如用户名、邮箱地址）</li>
+                            <li id="privacyItem2">使用数据和偏好设置</li>
+                            <li id="privacyItem3">设备信息和技术数据</li>
+                        </ul>
+
+                        <h3 id="privacyUseTitle">信息使用</h3>
+                        <p id="privacyUse">
+                            我们使用收集的信息来提供、维护和改进 <span class="app-name-placeholder">[应用名称]</span> 的服务质量。
+                        </p>
+
+                        <h3 id="privacyProtectionTitle">信息保护</h3>
+                        <p id="privacyProtection">
+                            我们采用适当的技术和组织措施来保护您的个人信息安全。
+                        </p>
+
+                        <h3 id="privacyContactTitle">联系我们</h3>
+                        <p id="privacyContact">
+                            如果您对本隐私政策有任何疑问，请通过联系方式与我们取得联系。
+                        </p>
+
+                        <div class="update-info">
+                            <p id="privacyUpdate">最后更新：2024年</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系方式 -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h1 id="contactTitle">联系我们</h1>
+                <div class="content-card">
+                    <div class="contact-content">
+                        <p id="contactIntro">
+                            感谢您对 <span class="app-name-placeholder">[应用名称]</span> 的关注。如有任何问题或建议，请通过以下方式联系我们：
+                        </p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <h3 id="contactEmailTitle">邮箱地址</h3>
+                                <p>
+                                    <a href="mailto:contact@example.com" id="contactEmail">contact@example.com</a>
+                                </p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3 id="contactSupportTitle">技术支持</h3>
+                                <p>
+                                    <a href="mailto:support@example.com" id="contactSupport">support@example.com</a>
+                                </p>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <h3 id="contactBusinessTitle">商务合作</h3>
+                                <p>
+                                    <a href="mailto:business@example.com" id="contactBusiness">business@example.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="response-time">
+                            <p id="contactResponse">
+                                我们通常会在24小时内回复您的邮件。感谢您使用 <span class="app-name-placeholder">[应用名称]</span>！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p id="footerText">
+                © 2024 <span class="app-name-placeholder">[应用名称]</span>. 
+                <span id="footerRights">版权所有</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
